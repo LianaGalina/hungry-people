@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-rim-auto-match" content="none">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Hungry people</title>
+</head>
+
+<body>
+  <div class="full-screen">
+    <div class="full-screen__wrap">
+      <div class="container flex-container">
+        <div class="header__body">
+          <nav class="menu">
+            <ul class="menu__list menu__list--left">
+              <a class="menu__link menu__link--active" href="#home">HOME</a>
+              <a class="menu__link" href="#about">ABOUT</a>
+              <a class="menu__link" href="#team">TEAM</a>
+              <a class="menu__link" href="#booking">BOOKING</a>
+            </ul>
+            <img src="img/logo.svg" alt="logo" class="logo" />
+            <ul class="menu__list menu__list--right">
+              <a class="menu__link" href="#menu">MENU</a>
+              <a class="menu__link" href="#galerie">GALERIE</a>
+              <a class="menu__link" href="#events">EVENTS</a>
+              <a class="menu__link" href="#contact">CONTACT</a>
+            </ul>
+          </nav>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+
+          <div class="main">
+            <span class="main__operating-mode">
+              Mon&nbsp;-&nbsp;Fri:&nbsp;8PM&nbsp;-&nbsp;10PM,&nbsp;Sat&nbsp;-&nbsp;Sun:&nbsp;8PM&nbsp-&nbsp;3AM
+            </span>
+            <div class="main__info">
+              <small class="main__tag">RESTAURANT</small>
+              <h1 class="main__restaurant-name">HUNGRY PEOPLE</h1>
+              <span class="trait"></span>
+              <div class="main__buttons">
+                <button name="book-table" class="main__button button__book-table">
+                  BOOK TABLE
+                </button>
+                <button name="explore" class="main__button button__explore">
+                  EXPLORE
+                </button>
+              </div>
+            </div>
+            <div class="main__social">
+              <a href="#" class="main__link"><img src="img/facebook.png" alt="facebook" /></a>
+              <a href="#" class="main__link"><img src="img/twitter.png" alt="twitter" /></a>
+              <a href="#" class="main__link"><img src="img/instagram.png" alt="instagram" /></a>
+            </div>
+          </div>
+        <a href="#" class="down-link">
+            <img src="img/down-btn.png" alt="arrow-down" class="down-img" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="block__main" id="about">
+      <div class="block__text">
+        <h2 class="block__title">ABOUT US</h2>
+        <span class="block__trate trait"></span>
+        <p class="block__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+          velit maximus, molestie est a, tempor magna.
+        </p>
+        <p class="block__description">
+          Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+          posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+          feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+          Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+          semper laoreet.
+        </p>
+      </div>
+      <div class="block__image">
+        <img src="img/gallery/photo6.jpg" alt="about-img" class="about__image--img" />
+      </div>
+    </div>
+  </div>
+
+  <div class="team" id="team">
+    <div class="team__wrap">
+      <div class="container">
+        <small class="block__small">OUR TEAM</small>
+        <div class="block__main">
+          <div class="block__image">
+            <img src="img/team-img.jpg" alt="team-img" class="team__image--img" />
+          </div>
+          <div class="block__text">
+            <h2 class="block__title">MASTER CHEF</h2>
+            <span class="block__trate trait"></span>
+            <p class="block__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit maximus, molestie est a, tempor magna.
+            </p>
+            <p class="block__description">
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+              posuere. Morbi non ultrices ligula. Sed dictum, enim sed
+              ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+              lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+              pharetra. Nulla facilisis semper laoreet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="booking">
+      <div class="block__main" id="booking">
+        <div class="booking-form">
+          <h2 class="block__title">BOOK A TABLE</h2>
+          <span class="block__trait trait"></span>
+          <form action="">
+            <input class="" type="text" name="name" placeholder="Name" />
+            <input class="" type="email" name="emial" placeholder="Email" />
+            <input class="" type="tel" name="phone" placeholder="Phone" />
+            <input class="" type="number" name="people" placeholder="People" />
+            <input class="" type="date" name="date" value="Date (mm/dd)" />
+            <input class="" type="time" name="time" value="Time" />
+            <input class="booking__button" type="button" value="BOOK NOW" />
+          </form>
+        </div>
+        <div class="block__image">
+          <img src="img/booking-img.jpg" alt="booking-img" class="booking__image--img" />
+        </div>
+        <span class="booking__operating-mode">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131
+          637/+40 726 458 782</span>
+      </div>
+    </div>
+  </div>
+  <div class="specialities">
+    <div class="specialities__wrap">
+      <div class="container">
+        <small class="block__small">specialities</small>
+        <div class="specialities__slider">
+          <div class="block__main">
+            <div class="block__image">
+              <img data-lazy="img/specialities-img.jpg" alt="specialities-img" class="specialities__image--img" />
+            </div>
+            <div class="block__text">
+              <h2 class="block__title">ice cream
+              </h2>
+              <span class="block__trait trait"></span>
+              <p class="block__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Duis at velit maximus, molestie est a, tempor magna.
+              </p>
+              <p class="block__description">
+                Integer ullamcorper neque eu purus euismod, ac faucibus
+                mauris posuere. Morbi non ultrices ligula. Sed dictum,
+                enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                diam convallis pharetra. Nulla facilisis semper laoreet. Integer ullamcorper neque eu purus euismod, ac faucibus
+                mauris posuere. Morbi non ultrices ligula. Sed dictum,
+                enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                diam convallis pharetra. Nulla facilisis semper laoreet.
+              </p>
+            </div>
+          </div>
+          <div class="block__main">
+            <div class="block__image">
+              <img data-lazy="img/specialities-img-2.jpg" alt="specialities-img" class="specialities__image--img" />
+            </div>
+            <div class="block__text">
+              <h2 class="block__title">chocolate cake</h2>
+              <span class="block__trait trait"></span>
+              <p class="block__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Duis at velit maximus, molestie est a, tempor magna.
+              </p>
+              <p class="block__description">
+                Integer ullamcorper neque eu purus euismod, ac faucibus
+                mauris posuere. Morbi non ultrices ligula. Sed dictum,
+                enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                diam convallis pharetra. Nulla facilisis semper laoreet.
+              </p>
+            </div>
+          </div>
+          <div class="block__main">
+            <div class="block__image">
+              <img data-lazy="img/specialities-img-3.jpg" alt="specialities-img" class="specialities__image--img" />
+            </div>
+            <div class="block__text">
+              <h2 class="block__title">chop with asparagus
+              </h2>
+              <span class="block__trate trait"></span>
+              <p class="block__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Duis at velit maximus, molestie est a, tempor magna.
+              </p>
+              <p class="block__description">
+                Integer ullamcorper neque eu purus euismod, ac faucibus
+                mauris posuere. Morbi non ultrices ligula. Sed dictum,
+                enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                diam convallis pharetra. Nulla facilisis semper laoreet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="restaurant-menu" id="menu">
+      <h2 class="block__title">DELICIOUS MENU</h2>
+      <span class="block__trait trait"></span>
+      <p class="block__subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+        maximus, molestie est a, tempor magna.
+      </p>
+      <div class="tabs">
+        <nav class="tabs__nav">
+          <a href="#soupe" class="tabs__link active">SOUPE</a>
+          <span class="vline"></span>
+          <a href="#pizza" class="tabs__link">PIZZA</a>
+          <span class="vline"></span>
+          <a href="#pasta" class="tabs__link">PASTA</a>
+          <span class="vline"></span>
+          <a href="#desert" class="tabs__link">DESERT</a>
+          <span class="vline"></span>
+          <a href="#wine" class="tabs__link">WINE</a>
+          <span class="vline"></span>
+          <a href="#beer" class="tabs__link">BEER</a>
+          <span class="vline"></span>
+          <a href="#drinks" class="tabs__link">DRINKS</a>
+        </nav>
+        <div class="tabs__content">
+          <div class="tabs__pane visible" id="soupe">
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">Goulash soup in bread</p>
+                <p class="dish__ingredients">
+                  Beef broth, beef, potatoes, carrots, onions, bell peppers, tomato paste, thyme, garlic. Served in rye
+                  bread with sour cream.
+                </p>
+              </div>
+              <span class="dish__price">3,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">Meatball Soup</p>
+                <p class="dish__ingredients">
+                  Chicken stock, beef, carrots, onions, egg noodles, peas
+                </p>
+              </div>
+              <span class="dish__price">2,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">COUPE QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">0,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">Pea soup</p>
+                <p class="dish__ingredients">
+                  Beef broth, pork shank, smoked meats, peas, potatoes, carrots, onions, greens
+                </p>
+              </div>
+              <span class="dish__price">5,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">Pickle</p>
+                <p class="dish__ingredients">
+                  Beef broth, pearl barley, beef, potatoes, carrots, onions, pickles. Served with sour cream.
+                </p>
+              </div>
+              <span class="dish__price">1,55 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">Kharcho</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">1,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">Creole Gumbo</p>
+                <p class="dish__ingredients">
+                  Beef broth, lamb, beef, rice, tomato paste, onion, bell pepper, garlic, adjika, cilantro, hop-sunel,
+                  coriander, tkemali sauce
+
+                </p>
+              </div>
+              <span class="dish__price">5,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">Kufta-bozbash
+                </p>
+                <p class="dish__ingredients">
+                  Beef broth, kufta, potatoes, carrots, onions, cilantro
+                </p>
+              </div>
+              <span class="dish__price">5,68 USD</span>
+            </div>
+          </div>
+          <div class="tabs__pane" id="pizza">
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PIZZA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PIZZA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PIZZA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PIZZA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PIZZA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PIZZA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PIZZA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+          </div>
+
+          <div class="tabs__pane" id="pasta">
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PASTA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PASTA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PASTA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">PASTA QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+          </div>
+          <div class="tabs__pane" id="desert">
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">DESERT QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+          </div>
+          <div class="tabs__pane" id="wine">
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">WINE QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+          </div>
+          <div class="tabs__pane" id="beer">
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">BEAR QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+          </div>
+          <div class="tabs__pane" id="drinks">
+            <div class="dish">
+              <div class="dish__text">
+                <p class="dish__name">DRINKS QUATRO STAGION</p>
+                <p class="dish__ingredients">
+                  Integer ullamcorper neque eu purus euismod
+                </p>
+              </div>
+              <span class="dish__price">55,68 USD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="events" id="events">
+    <div class="events__wrap">
+      <div class="container">
+        <span class="block__small"> private events </span>
+        <div class="block__main">
+          <a href="#" class="block__image block__image--left">
+            <img src="img/wedding.jpg" alt="wedding-img" class="wedding__image--img" />
+          </a>
+          <a href="#" class="block__image block__image--right">
+            <img src="img/corporative.jpg" alt="corporative-img" class="corporative__image--img" />
+          </a>
+          <span class="block__bottom-text">For private events please call: +40 729 131 637/+40 726 458 782 or use the
+            contact form.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery__wrap" id="galerie">
+    <div class="gallery__slider">
+      <div class="gallery__img">
+        <img data-lazy="img/gallery/photo1.jpg" alt="photo1">
+      </div>
+      <div class="gallery__img">
+        <img data-lazy="img/gallery/photo2.jpg" alt="photo2">
+      </div>
+      <div class="gallery__img">
+        <img data-lazy="img/gallery/photo3.jpg" alt="photo3">
+      </div>
+      <div class="gallery__img">
+        <img data-lazy="img/gallery/photo4.jpg" alt="photo4">
+      </div>
+      <div class="gallery__img">
+        <img data-lazy="img/gallery/photo5.jpg" alt="photo5">
+      </div>
+      <div class="gallery__img">
+        <img data-lazy="img/gallery/photo6.jpg" alt="photo6">
+      </div>
+      <div class="gallery__img">
+        <img data-lazy="img/gallery/photo7.jpg" alt="photo7">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="contact" id="contact">
+      <div class="block__main">
+        <div class="block__text">
+          <div class="block__title">contact</div>
+          <span class="block__trait trait"></span>
+          <div class="block__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.
+          </div>
+        </div>
+        <form action="#" method="" class="contact__form">
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" placeholder="Name" />
+            <input type="email" class="contact__input" placeholder="Email" />
+            <input type="tel" class="contact__input" placeholder="Phone" />
+            <textarea name="text" class="input__text" placeholder="Message"></textarea>
+          </div>
+
+          <div class="contact__info">
+            <div class="contact__num">
+              <div class="contact__line">
+                <img src="img/place.svg" alt="icon"><small class="contact__date">5th London Boulevard, U.K.</small>
+              </div>
+              <div class="contact__line">
+                <img src="img/phone.svg" alt="icon"><small class="contact__date">+40 729 131 637 +40 726 458 782</small>
+              </div>
+              <div class="contact__line">
+                <img src="img/email.svg" alt="icon"><small class="contact__date">office@mindblister.com </small>
+              </div>
+            </div>
+            <input type="submit" value="send message" class="contact__send">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+    <script type="text/javascript" charset="utf-8" async
+      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A832edd97630dad9627b44e08291830a6fa73b3f2900b01c33e7d0e336463bed4&amp;width=100%25&amp;height=475&amp;lang=ru_RU&amp;scroll=false">
+    </script>
+  </div>
+  <footer class="footer">
+    <p class="footer__text">
+      © Copyright <b>Mindblister</b> 2019
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
